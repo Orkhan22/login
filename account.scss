@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: auto;
+}
+
+.section2 {
+  width: 80%;
+
+  margin: 0 auto;
+  h3{
+    margin: 20px 20px;
+  }
+  .login-info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 600px;
+    border: 1px solid;
+    padding: 20px 20px;
+    background-color: #f8f8f8;;
+    gap: 20px;
+
+    .bu {
+      width: 240px;
+      height: 30px;
+      border: none;
+      
+    }
+
+    .cins {
+        margin: 20px 20px;
+        
+      h4 {
+        padding-bottom: 20px;
+      }
+      .check{
+        margin-left: 20px;
+      }
+      
+      
+    }
+    button {
+        width: 250px;
+        height: 30px;
+        border: none;
+        background-color: #ba958b;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+      }
+  }
+}

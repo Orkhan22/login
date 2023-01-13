@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+}
+
+.section2 {
+  width: 80%;
+  margin: 0 auto;
+}
+.section2 h3 {
+  margin: 20px 20px;
+}
+.section2 .login-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 600px;
+  border: 1px solid;
+  padding: 20px 20px;
+  background-color: #f8f8f8;
+  gap: 20px;
+}
+.section2 .login-info .bu {
+  width: 240px;
+  height: 30px;
+  border: none;
+}
+.section2 .login-info .cins {
+  margin: 20px 20px;
+}
+.section2 .login-info .cins h4 {
+  padding-bottom: 20px;
+}
+.section2 .login-info .cins .check {
+  margin-left: 20px;
+}
+.section2 .login-info button {
+  width: 250px;
+  height: 30px;
+  border: none;
+  background-color: #ba958b;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}/*# sourceMappingURL=account.css.map */
